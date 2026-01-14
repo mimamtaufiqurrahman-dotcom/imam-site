@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+
+<html lang="id">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Catatan Pemikiran</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="../assets/css/variables.css" rel="stylesheet"/>
+<link href="../assets/css/style.css" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet"/>
+</head>
+<body>
+<!-- ================= HEADER ================= -->
+<header class="site-header">
+<div class="container nav-wrapper">
+<!-- Logo kiri -->
+<div class="logo">
+<img alt="Logo" class="logo-img" src="../assets/images/logo.png"/><span class="logo-text" aria-label="Catatan | Imam">
+          <span class="brand-main">Catatan</span>
+          <span class="brand-sep">|</span>
+          <span class="brand-sub">Imam</span>
+        </span>
+</div>
+<!-- Hamburger Button (Mobile) -->
+<a class="nav-search-icon" href="../search.html" aria-label="Cari"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none"><path d="M10.5 18a7.5 7.5 0 1 1 0-15 7.5 7.5 0 0 1 0 15Z" stroke="currentColor" stroke-width="2"/><path d="M16.2 16.2 21 21" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></a>
+<!-- Hamburger Button (Mobile) -->
+<button aria-controls="navMenu" aria-expanded="false" aria-label="Buka menu" class="nav-toggle" type="button">
+<span aria-hidden="true"></span>
+<span aria-hidden="true"></span>
+<span aria-hidden="true"></span>
+</button>
+
+<!-- Navigation -->
+<nav aria-label="Navigasi utama" class="main-nav" id="navMenu">
+<div class="nav-drawer-header">
+<div class="nav-drawer-brand">
+  <img src="../assets/images/logo.png" alt="Logo"/>
+  <span class="nav-drawer-text" aria-label="Catatan | Imam">
+    <span class="brand-main">Catatan</span>
+    <span class="brand-sep">|</span>
+    <span class="brand-sub">Imam</span>
+  </span>
+</div>
+<button aria-label="Tutup menu" class="nav-close" type="button">✕</button>
+</div>
+<ul>
+<li><a href="../index.html">Beranda</a></li>
+<li><a href="../tentang.html">Tentang</a></li>
+<li class="dropdown">
+<a aria-controls="submenu-catatan" aria-expanded="false" aria-haspopup="true" class="dropdown-toggle" href="#"><span class="dd-label">Catatan</span><span class="dd-chevron" aria-hidden="true">▾</span></a>
+<ul class="dropdown-menu" id="submenu-catatan">
+<li><a href="../catatan/harian.html">Harian</a></li>
+<li><a href="../catatan/pemikiran.html">Pemikiran</a></li>
+<li><a href="../catatan/motivasi.html">Motivasi</a></li>
+<li><a href="../catatan/perjuangan.html">Perjuangan</a></li>
+</ul>
+</li>
+<li><a href="../contact.html">Contact</a></li>
+<li class="nav-search"><form action="#" class="site-search" method="get" role="search"><label class="sr-only" for="siteSearchInput">Cari catatan</label><input autocomplete="off" id="siteSearchInput" name="q" placeholder="Cari catatan…" type="search"/><button aria-label="Cari" type="submit">Cari</button></form></li></ul>
+</nav>
+</div>
+</header>
+<section class="page-header">
+<div class="container">
+<h1>Catatan Pemikiran</h1>
+<p>
+      Kumpulan pemikiran singkat yang mengajak melihat masalah dengan lebih jernih dan berimbang.
+    </p>
+</div>
+</section>
+<!-- ================= LIST ARTIKEL ================= -->
+<section class="article-list">
+<div class="container article-grid">
+<article class="article-card">
+<h2>
+<a href="../artikel/detail-belajar-mendengar-sebelum-menilai.html">
+          Mengapa Kita Mudah Menghakimi?
+        </a>
+</h2>
+<p class="meta">12 Januari 2026 · Pemikiran</p>
+<p class="excerpt">
+        Kadang kita menilai cepat karena ingin merasa aman. Padahal mendengar lebih dulu membuat kita lebih adil—dan lebih manusiawi...
+      </p>
+</article>
+<article class="article-card">
+<h2>
+<a href="../artikel/detail-waktu-disiplin-tanggungjawab.html">
+          Disiplin Itu Bukan Keras, Tapi Jelas
+        </a>
+</h2>
+<p class="meta">8 Januari 2026 · Pemikiran</p>
+<p class="excerpt">
+        Disiplin bukan menyiksa diri. Disiplin adalah membuat batas yang masuk akal dan menaatinya—agar energi kita tidak bocor ke hal yang tidak penting...
+      </p>
+</article>
+<article class="article-card">
+<h2>
+<a href="../artikel/detail-waktu-disiplin-tanggungjawab.html">
+          Tanggung Jawab = Kebebasan yang Dipilih
+        </a>
+</h2>
+<p class="meta">3 Januari 2026 · Pemikiran</p>
+<p class="excerpt">
+        Semakin kamu bertanggung jawab, semakin kamu punya kendali. Kebebasan bukan tanpa aturan, tapi punya arah dan konsekuensi yang disadari...
+      </p>
+</article>
+</div>
+</section>
+<!-- ================= PAGINATION ================= -->
+<nav class="pagination">
+<ul>
+<li class="prev disabled">
+<span>← Sebelumnya</span>
+</li>
+<li class="active">
+<span>1</span>
+</li>
+<li class="next disabled">
+<span>Selanjutnya →</span>
+</li>
+</ul>
+</nav>
+<!-- MEDIA SOSIAL -->
+<section class="media-social">
+<div class="container">
+<div class="media-header">
+<h2>Media Sosial</h2>
+<p>Ikuti dan terhubung melalui kanal resmi</p>
+</div>
+<div class="media-card">
+<!-- KIRI: FOTO / LOGO -->
+<div class="media-profile">
+<img alt="Foto Profil" src="../assets/images/profile.jpg"/>
+<h3>Akun Resmi</h3>
+<div class="social-icons">
+<a aria-label="Facebook" href="#"><i class="fab fa-facebook-f"></i></a>
+<a aria-label="X" href="#"><i class="fab fa-x-twitter"></i></a>
+<a aria-label="Instagram" href="#"><i class="fab fa-instagram"></i></a>
+<a aria-label="YouTube" href="#"><i class="fab fa-youtube"></i></a>
+</div>
+</div>
+<!-- KANAN: QUOTE IMAGE -->
+<div class="media-quote">
+<img alt="Quote" class="quote-image" src="../assets/images/quote.jpg"/>
+</div>
+</div>
+</div>
+</section>
+<footer class="site-footer">
+<div class="container">
+<p>© 2026 Website Personal.</p>
+</div>
+</footer>
+<script src="../assets/js/main.js"></script>
+</body>
+</html>
